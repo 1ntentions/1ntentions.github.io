@@ -1,37 +1,21 @@
 ---
 layout: archive
-title: "Sitemap"
-permalink: /sitemap/
+title: "Projects"
+permalink: /projects/
 author_profile: true
 ---
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+Personal Project  
+Intentionality (Budgeting Website)  
+•	I love money and managing it, so I translated the system that I have been using in my head into a website that can help adults who struggle with financial literacy.  
+•	Applied skills in SQL, PHP, HTML, and CSS to create a simple, navigable website that utilizes a database that stores each user’s username, hashed password, the percentage of their income they want allocated to different categories, and the balances of these categories.  
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+Academic Projects  
+Local Language Model Text Response  
+•	Applied skills in Python and Conda to install two local language models that each read multiple prompts from a text file before responding to them and saving those responses to another text file.  
+Mission Demolition (Game)  
+•	Applied skills in C# and ShaderLab to add unique functionalities such as a game over screen, restart button, more levels, a slingshot band, audio, and a chance of a faster projectile to a pre-existing tutorial from the “Intro to Game Design, Prototyping, and Development” textbook.  
+Apple Picker (Game)  
+•	Applied skills in C# and ShaderLab to add unique functionalities such as a start screen with a start button, an extra basket to catch apples, UI to tell the player what round they are in, a game over screen, and a branch that the player should avoid catching to a pre-existing tutorial from the “Intro to Game Design, Prototyping, and Development” textbook.
