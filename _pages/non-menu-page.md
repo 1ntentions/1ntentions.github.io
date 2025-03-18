@@ -1,16 +1,13 @@
 ---
-permalink: /non-menu-page/
-title: "Page not in menu"
+permalink: /skills/
+title: "Skills and Interests"
 author_profile: true
-redirect_from: 
-  - "/nmp/"
-  - "/nmp.html"
 ---
 
-This is a page not in the menu. You can use markdown in this page.
 
-Heading 1
-======
+## Skills
+SQL, Python, Java, JavaScript, C++, C, C#, HTML, CSS, PHP, Conda, Unix, MIPS, ShaderLab
 
-Heading 2
-======
+## Interests
+I am particularly passionate about data engineering, but I love the field of computer science and am not at all opposed to pursuing work in other areas of the field if it means I can broaden my knowledge and skills.
+
