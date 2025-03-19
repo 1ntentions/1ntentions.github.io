@@ -9,7 +9,7 @@ author_profile: true
 
 
 ## Personal Project  
-### Intentionality (Budgeting Website)  
+### Intentionality (Local Budgeting Website)  
 https://github.com/1ntentions/Intentionality  
 •	I love money and managing it, so I translated the system that I have been using in my head into a website that can help adults who struggle with financial literacy.  
 •	Applied skills in SQL, PHP, HTML, and CSS to create a simple, navigable website that utilizes a database that stores each user’s username, hashed password, the percentage of their income they want allocated to different categories, and the balances of these categories.  
